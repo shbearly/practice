@@ -18,3 +18,4 @@ This code is not limited to put into business product or not.
                     @    @
                      @ @  
 
+Believe yourself ~
