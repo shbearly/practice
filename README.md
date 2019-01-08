@@ -1,3 +1,3 @@
-This Repo is used to kepp good code example for personal study.
-This code is not limited to put into business product or not.
+This Repo is used to keep good code example for personal study.
+The code is not limited to put into business product or not.
 
