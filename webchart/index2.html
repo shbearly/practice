@@ -1,0 +1,62 @@
+
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/chartist.js/latest/chartist.min.css">
+<script src="https://cdn.jsdelivr.net/chartist.js/latest/chartist.min.js"> </script>
+
+</head>
+
+<body><h1>It works!</h1>
+<p>This is the default web page for this server.</p>
+<p>The web server software is running but no content has been added, yet.</p>
+
+<div class="ct-chart ct-perfect-fourth"></div>
+<div class="ct-chart2 ct-perfect-fourth"></div>
+<div class="ct-chart3 ct-perfect-fourth"></div>
+
+<script>
+var data1 = {
+  labels: ['Tao Liu', 'Stephen Burgess', 'Stefanie Baldwin (baldwis)', 'Uttam Sarkar', 'jiadin', 'Lei Chen', 'mipieper', 'Yan Li', 'jopalazz', 'jiacwu'],
+  series: [
+	[456, 359, 320, 302, 290, 263, 241, 233, 232, 203]
+  ]
+};
+
+var options1 = {
+  fullWidth: false,
+  chartPadding: {
+    right: 10
+  },
+  showArea: true
+};
+
+new Chartist.Bar('.ct-chart', data1, options1);
+
+var data2 = {
+  labels: ['Tao Liu', 'Stephen Burgess', 'Stefanie Baldwin (baldwis)', 'Uttam Sarkar', 'jiadin', 'Lei Chen', 'mipieper', 'Yan Li', 'jopalazz', 'jiacwu'],
+  series: [
+	[456, 359, 320, 302, 290, 263, 241, 233, 232, 203]
+  ]
+};
+
+options2 = {
+  seriesBarDistance: 400,
+  reverseData: true,
+  horizontalBars: true,
+  axisY: {
+    offset: 70
+  }
+}
+
+
+new Chartist.Line('.ct-chart2', data1, options1 );
+new Chartist.Bar('.ct-chart3', data2, options2 );
+
+s
+
+</script>
+
+
+</body>
+</html>
+
